@@ -13,17 +13,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>u</string>
 			<key>one</key>
-			<string>You have an increased risk of infection because you were last exposed a day ago over a longer period of time and at close proximity to at least one person diagnosed with COVID-19.</string>
+			<string>Fertőzési kockázata nagyobb, mivel legutoljára egy napja, hosszabb ideig és legalább egy személy közelében tartózkodott, akiről bebizonyult, hogy SARS-CoV-2 fertőzése van.</string>
 			<key>zero</key>
-			<string>You have an increased risk of infection because you were last exposed %u days ago over a longer period of time and at close proximity to at least one person diagnosed with COVID-19.</string>
+			<string>Fertőzési kockázata nagyobb, mivel legutoljára %u napja, hosszabb ideig és legalább egy személy közelében tartózkodott, akiről bebizonyult, hogy SARS-CoV-2 fertőzése van</string>
 			<key>few</key>
-			<string>You have an increased risk of infection because you were last exposed %u days ago over a longer period of time and at close proximity to at least one person diagnosed with COVID-19.</string>
+			<string>Fertőzési kockázata nagyobb, mivel legutoljára %u napja, hosszabb ideig és legalább egy személy közelében tartózkodott, akiről bebizonyult, hogy SARS-CoV-2 fertőzése van</string>
 			<key>many</key>
-			<string>You have an increased risk of infection because you were last exposed %u days ago over a longer period of time and at close proximity to at least one person diagnosed with COVID-19.</string>
+			<string>Fertőzési kockázata nagyobb, mivel legutoljára %u napja, hosszabb ideig és legalább egy személy közelében tartózkodott, akiről bebizonyult, hogy SARS-CoV-2 fertőzése van</string>
 			<key>two</key>
-			<string>You have an increased risk of infection because you were last exposed %u days ago over a longer period of time and at close proximity to at least one person diagnosed with COVID-19.</string>
+			<string>Fertőzési kockázata nagyobb, mivel legutoljára %u napja, hosszabb ideig és legalább egy személy közelében tartózkodott, akiről bebizonyult, hogy SARS-CoV-2 fertőzése van</string>
 			<key>other</key>
-			<string>You have an increased risk of infection because you were last exposed %u days ago over a longer period of time and at close proximity to at least one person diagnosed with COVID-19.</string>
+			<string>Fertőzési kockázata nagyobb, mivel legutoljára %u napja, hosszabb ideig és legalább egy személy közelében tartózkodott, akiről bebizonyult, hogy SARS-CoV-2 fertőzése van</string>
 		</dict>
 	</dict>
 	<key>ExposureDetection_Refreshed_Format</key>

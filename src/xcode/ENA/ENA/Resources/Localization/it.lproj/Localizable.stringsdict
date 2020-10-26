@@ -13,17 +13,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>u</string>
 			<key>one</key>
-			<string>You have an increased risk of infection because you were last exposed a day ago over a longer period of time and at close proximity to at least one person diagnosed with COVID-19.</string>
+			<string>Il tuo rischio di infezione è maggiore perché sei stato esposto l’ultima volta un giorno fa, per un periodo di tempo abbastanza lungo e nelle vicinanza di almeno una persona cui è stata diagnosticata l’infezione da SARS-CoV-2.</string>
 			<key>zero</key>
-			<string>You have an increased risk of infection because you were last exposed %u days ago over a longer period of time and at close proximity to at least one person diagnosed with COVID-19.</string>
+			<string>Il tuo rischio di infezione è maggiore perché sei stato esposto l’ultima volta %u giorni fa, per un periodo di tempo abbastanza lungo e nelle vicinanza di almeno una persona cui è stata diagnosticata l’infezione da SARS-CoV-2.</string>
 			<key>few</key>
-			<string>You have an increased risk of infection because you were last exposed %u days ago over a longer period of time and at close proximity to at least one person diagnosed with COVID-19.</string>
+			<string>Il tuo rischio di infezione è maggiore perché sei stato esposto l’ultima volta %u giorni fa, per un periodo di tempo abbastanza lungo e nelle vicinanza di almeno una persona cui è stata diagnosticata l’infezione da SARS-CoV-2.</string>
 			<key>many</key>
-			<string>You have an increased risk of infection because you were last exposed %u days ago over a longer period of time and at close proximity to at least one person diagnosed with COVID-19.</string>
+			<string>Il tuo rischio di infezione è maggiore perché sei stato esposto l’ultima volta %u giorni fa, per un periodo di tempo abbastanza lungo e nelle vicinanza di almeno una persona cui è stata diagnosticata l’infezione da SARS-CoV-2.</string>
 			<key>two</key>
-			<string>You have an increased risk of infection because you were last exposed %u days ago over a longer period of time and at close proximity to at least one person diagnosed with COVID-19.</string>
+			<string>Il tuo rischio di infezione è maggiore perché sei stato esposto l’ultima volta %u giorni fa, per un periodo di tempo abbastanza lungo e nelle vicinanza di almeno una persona cui è stata diagnosticata l’infezione da SARS-CoV-2.</string>
 			<key>other</key>
-			<string>You have an increased risk of infection because you were last exposed %u days ago over a longer period of time and at close proximity to at least one person diagnosed with COVID-19.</string>
+			<string>Il tuo rischio di infezione è maggiore perché sei stato esposto l’ultima volta %u giorni fa, per un periodo di tempo abbastanza lungo e nelle vicinanza di almeno una persona cui è stata diagnosticata l’infezione da SARS-CoV-2.</string>
 		</dict>
 	</dict>
 	<key>ExposureDetection_Refreshed_Format</key>
@@ -85,17 +85,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>u</string>
 			<key>zero</key>
-			<string>%u giorni dall&apos;ultima esposizione a una persona infetta</string>
+			<string>%u giorni dall&apos;ultima esposizione</string>
 			<key>one</key>
-			<string>%u giorno dall&apos;ultima esposizione a una persona infetta</string>
+			<string>%u giorno dall&apos;ultima esposizione </string>
 			<key>few</key>
-			<string>%u giorni dall&apos;ultima esposizione a una persona infetta</string>
+			<string>%u giorni dall&apos;ultima esposizione </string>
 			<key>many</key>
-			<string>%u giorni dall&apos;ultima esposizione a una persona infetta</string>
+			<string>%u giorni dall&apos;ultima esposizione </string>
 			<key>two</key>
-			<string>%u giorni dall&apos;ultima esposizione a una persona infetta</string>
+			<string>%u giorni dall&apos;ultima esposizione </string>
 			<key>other</key>
-			<string>%u giorni dall&apos;ultima esposizione a una persona infetta</string>
+			<string>%u giorni dall&apos;ultima esposizione </string>
 		</dict>
 	</dict>
 	<key>Home_Risk_Low_Number_Contacts_Item_Title</key>
@@ -157,17 +157,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>u</string>
 			<key>zero</key>
-			<string>meno di un giorno dall&apos;ultima esposizione a una persona infetta</string>
+			<string>meno di un giorno dall&apos;ultima esposizione</string>
 			<key>one</key>
-			<string>%u giorno dall&apos;ultima esposizione a una persona infetta</string>
+			<string>%u giorno dall&apos;ultima esposizione </string>
 			<key>few</key>
-			<string>%u giorni dall&apos;ultima esposizione a una persona infetta</string>
+			<string>%u giorni dall&apos;ultima esposizione </string>
 			<key>many</key>
-			<string>%u giorni dall&apos;ultima esposizione a una persona infetta</string>
+			<string>%u giorni dall&apos;ultima esposizione </string>
 			<key>two</key>
-			<string>%u giorni dall&apos;ultima esposizione a una persona infetta</string>
+			<string>%u giorni dall&apos;ultima esposizione </string>
 			<key>other</key>
-			<string>%u giorni dall&apos;ultima esposizione a una persona infetta</string>
+			<string>%u giorni dall&apos;ultima esposizione </string>
 		</dict>
 	</dict>
 	<key>Home_Risk_Status_Counter_Label</key>
