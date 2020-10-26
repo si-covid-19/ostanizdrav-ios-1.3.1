@@ -13,17 +13,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>u</string>
 			<key>one</key>
-			<string>You have an increased risk of infection because you were last exposed a day ago over a longer period of time and at close proximity to at least one person diagnosed with COVID-19.</string>
+			<string>Vaše tveganje za okužbo je večje, ker ste bili nazadnje izpostavljeni pred enim dnevom, in sicer dlje časa in v bližini vsaj ene osebe, pri kateri je bila potrjena okužba s SARS-CoV-2.</string>
 			<key>zero</key>
-			<string>You have an increased risk of infection because you were last exposed %u days ago over a longer period of time and at close proximity to at least one person diagnosed with COVID-19.</string>
+			<string>Vaše tveganje za okužbo je večje, ker ste bili nazadnje izpostavljeni pred %u dnevi, in sicer dlje časa in v bližini vsaj ene osebe, pri kateri je bila potrjena okužba s SARS-CoV-2.</string>
 			<key>few</key>
-			<string>You have an increased risk of infection because you were last exposed %u days ago over a longer period of time and at close proximity to at least one person diagnosed with COVID-19.</string>
+			<string>Vaše tveganje za okužbo je večje, ker ste bili nazadnje izpostavljeni pred %u dnevi, in sicer dlje časa in v bližini vsaj ene osebe, pri kateri je bila potrjena okužba s SARS-CoV-2.</string>
 			<key>many</key>
-			<string>You have an increased risk of infection because you were last exposed %u days ago over a longer period of time and at close proximity to at least one person diagnosed with COVID-19.</string>
+			<string>Vaše tveganje za okužbo je večje, ker ste bili nazadnje izpostavljeni pred %u dnevi, in sicer dlje časa in v bližini vsaj ene osebe, pri kateri je bila potrjena okužba s SARS-CoV-2.</string>
 			<key>two</key>
-			<string>You have an increased risk of infection because you were last exposed %u days ago over a longer period of time and at close proximity to at least one person diagnosed with COVID-19.</string>
+			<string>Vaše tveganje za okužbo je večje, ker ste bili nazadnje izpostavljeni pred %u dnevi, in sicer dlje časa in v bližini vsaj ene osebe, pri kateri je bila potrjena okužba s SARS-CoV-2.</string>
 			<key>other</key>
-			<string>You have an increased risk of infection because you were last exposed %u days ago over a longer period of time and at close proximity to at least one person diagnosed with COVID-19.</string>
+			<string>Vaše tveganje za okužbo je večje, ker ste bili nazadnje izpostavljeni pred %u dnevi, in sicer dlje časa in v bližini vsaj ene osebe, pri kateri je bila potrjena okužba s SARS-CoV-2.</string>
 		</dict>
 	</dict>
 	<key>ExposureDetection_Refreshed_Format</key>
@@ -63,15 +63,15 @@
 			<key>zero</key>
 			<string>Do zdaj ni bilo izpostavljenosti</string>
 			<key>one</key>
-			<string>Ena izpostavljenost okuženi osebi</string>
+			<string>Ena izpostavljenost</string>
 			<key>few</key>
-			<string>%u izpostavljenosti okuženi osebi</string>
+			<string>%u izpostavljenosti</string>
 			<key>many</key>
-			<string>%u izpostavljenosti okuženi osebi</string>
+			<string>%u izpostavljenosti </string>
 			<key>two</key>
-			<string>%u izpostavljenosti okuženi osebi</string>
+			<string>%u izpostavljenosti</string>
 			<key>other</key>
-			<string>%u izpostavljenosti okuženi osebi</string>
+			<string>%u izpostavljenosti</string>
 		</dict>
 	</dict>
 	<key>ExposureDetection_LastExposure</key>
@@ -85,17 +85,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>u</string>
 			<key>zero</key>
-			<string>%u dni od zadnje izpostavljenosti okuženi osebi</string>
+			<string>%u dni od zadnje izpostavljenosti</string>
 			<key>one</key>
-			<string>%u dan od zadnje izpostavljenosti okuženi osebi</string>
+			<string>%u dan od zadnje izpostavljenosti</string>
 			<key>few</key>
-			<string>%u dni od zadnje izpostavljenosti okuženi osebi</string>
+			<string>%u dni od zadnje izpostavljenosti</string>
 			<key>many</key>
-			<string>%u dni od zadnje izpostavljenosti okuženi osebi</string>
+			<string>%u dni od zadnje izpostavljenosti</string>
 			<key>two</key>
-			<string>%u dni od zadnje izpostavljenosti okuženi osebi</string>
+			<string>%u dni od zadnje izpostavljenosti</string>
 			<key>other</key>
-			<string>%u dni od zadnje izpostavljenosti okuženi osebi</string>
+			<string>%u dni od zadnje izpostavljenosti</string>
 		</dict>
 	</dict>
 	<key>Home_Risk_Low_Number_Contacts_Item_Title</key>
@@ -111,15 +111,15 @@
 			<key>zero</key>
 			<string>Do zdaj ni bilo izpostavljenosti</string>
 			<key>one</key>
-			<string>%u izpostavljenost okuženi osebi</string>
+			<string>%u izpostavljenost z majhnim tveganjem</string>
 			<key>few</key>
-			<string>%u izpostavljenosti okuženi osebi</string>
+			<string>%u izpostavljenosti z majhnim tveganjem</string>
 			<key>many</key>
-			<string>%u izpostavljenosti okuženi osebi</string>
+			<string>%u izpostavljenosti z majhnim tveganjem</string>
 			<key>two</key>
-			<string>%u izpostavljenosti okuženi osebi</string>
+			<string>%u izpostavljenosti z majhnim tveganjem</string>
 			<key>other</key>
-			<string>%u izpostavljenosti okuženi osebi</string>
+			<string>%u izpostavljenosti z majhnim tveganjem</string>
 		</dict>
 	</dict>
 	<key>Home_Risk_High_Number_Contacts_Item_Title</key>
@@ -135,15 +135,15 @@
 			<key>zero</key>
 			<string>Do zdaj ni bilo izpostavljenosti</string>
 			<key>one</key>
-			<string>%u izpostavljenost okuženi osebi</string>
+			<string>%u izpostavljenost</string>
 			<key>few</key>
-			<string>%u izpostavljenosti okuženi osebi</string>
+			<string>%u izpostavljenosti</string>
 			<key>many</key>
-			<string>%u izpostavljenosti okuženi osebi</string>
+			<string>%u izpostavljenosti</string>
 			<key>two</key>
-			<string>%u izpostavljenosti okuženi osebi</string>
+			<string>%u izpostavljenosti</string>
 			<key>other</key>
-			<string>%u izpostavljenosti okuženi osebi</string>
+			<string>%u izpostavljenosti</string>
 		</dict>
 	</dict>
 	<key>Home_Risk_Last_Contact_Item_Title</key>
@@ -159,15 +159,15 @@
 			<key>zero</key>
 			<string>Manj kot en dan od zadnje izpostavljenosti okuženi osebi</string>
 			<key>one</key>
-			<string>%u dan od zadnje izpostavljenosti okuženi osebi</string>
+			<string>%u dan od zadnje izpostavljenosti</string>
 			<key>few</key>
-			<string>%u dni od zadnje izpostavljenosti okuženi osebi</string>
+			<string>%u dni od zadnje izpostavljenosti</string>
 			<key>many</key>
-			<string>%u dni od zadnje izpostavljenosti okuženi osebi</string>
+			<string>%u dni od zadnje izpostavljenosti</string>
 			<key>two</key>
-			<string>%u dni od zadnje izpostavljenosti okuženi osebi</string>
+			<string>%u dni od zadnje izpostavljenosti</string>
 			<key>other</key>
-			<string>%u dni od zadnje izpostavljenosti okuženi osebi</string>
+			<string>%u dni od zadnje izpostavljenosti</string>
 		</dict>
 	</dict>
 	<key>Home_Risk_Status_Counter_Label</key>

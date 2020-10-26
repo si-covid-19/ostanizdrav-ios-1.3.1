@@ -160,7 +160,10 @@ extension RiskProvider: RiskProviding {
 			let tracingHistory = store.tracingStatusHistory
 			let numberOfEnabledSeconds = tracingHistory.activeTracing().interval
 			let remainingTime = TracingStatusHistory.minimumActiveSeconds - numberOfEnabledSeconds
-			return Date().addingTimeInterval(remainingTime)
+			// To get a more robust Date when calculating the Date we need to drop precision, otherwise we will get dates differing in miliseconds
+			let timeInterval = Date().addingTimeInterval(remainingTime).timeIntervalSinceReferenceDate
+			let timeIntervalInSeconds = Int(timeInterval)
+			return Date(timeIntervalSinceReferenceDate: TimeInterval(timeIntervalInSeconds))
 		case .date(let date):
 			return date
 		}
@@ -262,6 +265,7 @@ extension RiskProvider: RiskProviding {
 		guard let _appConfiguration = appConfiguration else {
 			provideLoadingStatus(isLoading: false)
 			completeOnTargetQueue(risk: nil, completion: completion)
+			showAppConfigError()
 			return
 		}
 
@@ -319,6 +323,16 @@ extension RiskProvider: RiskProviding {
 			store.previousRiskLevel = .increased
 		default:
 			break
+		}
+	}
+	
+	private func showAppConfigError() {
+		// This should only be in the App temporarly until we refactor either how we update/get AppConfiguration or refactor how Errors are handled during the RiskCalculation.
+		DispatchQueue.main.async {
+			UIApplication.shared.windows.first?.rootViewController?.alertError(
+				message: AppStrings.ExposureDetectionError.errorAlertAppConfigMissingMessage,
+				title: AppStrings.ExposureDetectionError.errorAlertTitle
+			)
 		}
 	}
 }

@@ -35,6 +35,10 @@
 
 "Common_BackgroundFetch_AlertTitle" = "Posodabljanje v ozadju je izključeno";
 
+"Common_Deadman_AlertTitle" = "Vaš status tveganja";
+
+"Common_Deadman_AlertBody" = "Ne pozabite redno odpreti aplikacije #OstaniZdrav, da preverite status vašega tveganja.";
+
 /* General - Links */
 "General_moreInfo_URL" = "https://www.gov.si/teme/koronavirus-sars-cov-2/mobilna-aplikacija-ostanizdrav/";
 
@@ -52,15 +56,11 @@
 /* Exposure Detection */
 "ExposureDetection_Off" = "Beleženje izpostavljenosti je ustavljeno";
 
-"ExposureDetection_Outdated" = "Beleženje izpostavljenosti ni mogoče";
-
 "ExposureDetection_Unknown" = "Neznano tveganje";
 
 "ExposureDetection_Low" = "Majhno tveganje";
 
 "ExposureDetection_High" = "Večje tveganje";
-
-"ExposureDetection_NumberOfDaysStored" = "Aktivirano %1$s od 14 dni";
 
 "ExposureDetection_Refreshed" = "Posodobljeno: %@";
 
@@ -106,9 +106,7 @@
 
 "ExposureDetection_Explanation_Title" = "Tveganje za okužbo";
 
-"ExposureDetection_Explanation_Subtitle_Active" = "";
-
-"ExposureDetection_Explanation_Subtitle_Inactive" = "";
+"ExposureDetection_Explanation_Subtitle" = " ";
 
 "ExposureDetection_Explanation_Text_Off" = "Vaše tveganje za okužbo smo ocenili lokalno na vaši napravi na podlagi podatkov o beleženju izpostavljenosti (trajanje in bližina). Podatka o vašem tveganju za okužbo ne more videti nihče drug in tudi posredovati ga ne morete nikomur.";
 
@@ -118,7 +116,17 @@
 
 "ExposureDetection_Explanation_Text_Low" = "Vaše tveganje za okužbo je majhno, ker ni bilo zabeleženega stika z osebami, pri katerih je bila pozneje potrjena okužba s SARS-CoV-2, oziroma ker so bili vaši stiki kratkotrajni ali na večji razdalji.";
 
-"ExposureDetection_Explanation_Text_High" = "Vaše tveganje za okužbo je večje, ker ste bili nazadnje izpostavljeni pred %1$s dnevi, in sicer dlje časa in v bližini vsaj ene osebe, pri kateri je bila potrjena okužba s SARS-CoV-2.";
+"ExposureDetection_Explanation_Text_High" = "";
+
+"ExposureDetection_Explanation_FAQ_Link" = " ";
+
+"ExposureDetection_Explanation_FAQ_Link_Text" = " ";
+
+"ExposureDetection_LowRiskExposure_Title" = "Izpostavljenosti z majhnim tveganjem";
+
+"ExposureDetection_LowRiskExposure_Subtitle" = "Zakaj je vaše tveganje majhno";
+
+"ExposureDetection_LowRiskExposure_Body" = "Vaše tveganje za okužbo je majhno, ker ni bilo zabeleženega stika z osebami, pri katerih je bila pozneje potrjena okužba s SARS-CoV-2, oziroma ker so bili vaši stiki kratkotrajni ali na večji razdalji. Zaradi tega je bilo vaše tveganje za okužbo ocenjeno kot majhno. Ni razloga za skrb ter posebne potrebe po ukrepanju. Priporočamo, da se držite veljavnih priporočil za preprečevanje širjenja okužbe s SARS-CoV-2.";
 
 "ExposureDetection_Button_Enable" = "Aktiviraj beleženje izpostavljenosti";
 
@@ -130,7 +138,8 @@
 "ExposureDetection_ActiveTracingSection_Subtitle" = "";
 
 /* There are two paragraphs in this section. The first one just contains text… */
-"ExposureDetection_ActiveTracingSection_Text_Paragraph0" = "Vaša stopnja tveganja za okužbo se lahko oceni samo, če je aktivirano beleženje izpostavljenosti. Za pravilno delovanje aplikacija mora biti ta funkcionalnost aktivirana ves čas.";
+"ExposureDetection_ActiveTracingSection_Text_Paragraph0" = "VVaša stopnja tveganja za okužbo se lahko oceni samo za obdobje v katerem je bilo aktivno beleženje izpostavljenosti, zato mora biti beleženje izpostavljenosti aktivirano ves čas.
+";
 
 /* … the second paragraph contains two columns. On the left there is our active\n tracing indicator. On the right column there is just text that explains what\n the indicator shows.\n\n Parameters:\n - first: total number of relevant days (usually 14).\n - second: the actual number of days with active tracing. */
 "ExposureDetection_ActiveTracingSection_Text_Paragraph1" = "Beleženje izpostavljenosti zajema zadnjih %1$u dni. V tem času je bila funkcionalnost beleženja aktivirana %2$u dni. Aplikacija samodejno briše starejše zapise, saj ti podatki niso več relavantni za preprečevanje širjenja okužbe.";
@@ -142,10 +151,12 @@
 
 "ExposureDetectionError_Alert_Message" = "Med beleženjem izpostavljenosti je prišlo do napake.";
 
+"ExposureDetectionError_Alert_AppConfig_Missing_Message" = "Ni internetne povezave. Preverite povezavo in ponovno odprite aplikacijo.";
+
 /* How Risk Detection Works Alert.\n First introduced due to EXPOSUREAPP-1738.\n The alert only displays a single OK-button. We re-use the localized string\n `Alert_ActionOk` for that. */
 "How_Risk_Detection_Works_Alert_Title" = "Informacije o funkcionalnosti beleženja izpostavljenosti";
 
-"How_Risk_Detection_Works_Alert_Message" = "Vaša stopnja tveganja za okužbo se lahko oceni samo, če je aktivirano beleženje izpostavljenosti. Za pravilno delovanje aplikacija mora biti ta funkcionalnost aktivirana ves čas.\nBeleženje izpostavljenosti zajema zadnjih 14 dni. V tem času je bila funkcionalnost beleženja aktivna %1$u dni.\nAplikacija samodejno briše starejše zapise, saj ti podatki niso več relavantni za preprečevanje širjenja okužbe.\n\nZa dodatne informacije si oglejte našo spletno stran.";
+"How_Risk_Detection_Works_Alert_Message" = "Vaša stopnja tveganja za okužbo se lahko oceni samo za obdobje v katerem je bilo aktivno beleženje izpostavljenosti, zato mora biti beleženje izpostavljenosti aktivirano ves čas.\nBeleženje izpostavljenosti zajema zadnjih 14 dni. V tem času je bila funkcionalnost beleženja aktivna %1$u dni.\nAplikacija samodejno briše starejše zapise, saj ti podatki niso več relavantni za preprečevanje širjenja okužbe.\n\nZa dodatne informacije si oglejte našo spletno stran.";
 
 /* Settings */
 "Settings_StatusActive" = "Vklopljeno";
@@ -226,6 +237,10 @@
 
 "OnboardingInfo_togetherAgainstCoronaPage_normalText" = "Uporabljajte svoj pametni telefon kot opozorilni sistem za izpostavljenost novemu koronavirusu (SARS-CoV-2). Okužba s tem virusom lahko povzroči bolezen COVID-19 ali lahko poteka brez simptomov.\nSeznanite se s svojim tveganjem za okužbo in odkrijte, ali ste bili v stiku z nekom, pri katerem je bila v preteklih 14 dneh potrjena okužba s SARS-CoV-2.";
 
+"OnboardingInfo_togetherAgainstCoronaPage_link" = "";
+
+"OnboardingInfo_togetherAgainstCoronaPage_linkText" = "";
+
 "OnboardingInfo_privacyPage_imageDescription" = "Ena izmed žensk uporablja aplikacijo #OstaniZdrav na svoji napravi. Ključavnica na ščitu je simbol za šifrirane podatke.";
 
 "OnboardingInfo_privacyPage_title" = "Varstvo podatkov";
@@ -254,7 +269,7 @@
 
 "OnboardingInfo_enableLoggingOfContactsPage_stateStopped" = "Ustavljeno";
 
-"OnboardingInfo_howDoesDataExchangeWorkPage_imageDescription" = " Šifrirano obvestilo o okužbi se prenese v sistem, ki bo opozoril druge uporabnike.";
+"OnboardingInfo_howDoesDataExchangeWorkPage_imageDescription" = "Šifrirano obvestilo o okužbi se prenese v sistem, ki bo opozoril druge uporabnike.";
 
 "OnboardingInfo_howDoesDataExchangeWorkPage_title" = "Če je bila pri vas potrjena okužba s SARS-CoV-2 ...";
 
@@ -400,7 +415,7 @@
 /* Exposure Submission Introduction */
 "ExposureSubmissionIntroduction_Title" = "Ali ste bili testirani?";
 
-"ExposureSubmissionIntroduction_SubTitle" = "Delovanje aplikacije #OstaniZdrav";
+"ExposureSubmissionIntroduction_SubTitle" = " ";
 
 "ExposureSubmissionIntroduction_AccImageDescription" = "Naprava prenaša šifrirano obvestilo na podlagi potrjene okužbe s SARS-CoV-2 v sistem.";
 
@@ -461,6 +476,10 @@
 
 "ExposureSubmissionResult_testInvalid" = "";
 
+"ExposureSubmissionResult_testRedeemed" = " ";
+
+"ExposureSubmissionResult_testRedeemedDesc" = " ";
+
 "ExposureSubmissionResult_testInvalidDesc" = "";
 
 "ExposureSubmissionResult_testPending" = "";
@@ -502,6 +521,8 @@
 "ExposureSubmissionResult_RegistrationDate" = "Vneseno dne ";
 
 /* Exposure Submission */
+"ExposureSubmissionError_ErrorPrefix" = "A technical error occurred while sending your data. Please contact the technical hotline. You will find the phone number under App Information.";
+
 "ExposureSubmissionError_NoKeys" = "Diagnostični ključ ni na voljo. Poskusite znova jutri.";
 
 "ExposureSubmissionError_InvalidTan" = "Ustvarjena številka TAN ni veljavna za oddajo. Pokličite epidemiološko službo.";
@@ -515,6 +536,8 @@
 "ExposureSubmissionError_NoResponse" = "Odziv nima vsebine.";
 
 "ExposureSubmissionError_QRAlreadyUsed" = "";
+
+"ExposureSubmissionError_QRAlreadyUsed_Title" = " ";
 
 "ExposureSubmissionError_TeleTanAlreadyUsed" = "Številka TAN je neveljavna ali je že bila uporabljena. Poskusite ponovno ali stopite v stik z epidemiološko službo.";
 
@@ -545,7 +568,7 @@
 
 "ExposureNotificationSetting_DescriptionTitle_Inactive" = "Aktivirajte beleženje izpostavljenosti";
 
-"ExposureNotificationSetting_DescriptionTitle" = "Tako deluje beleženje izpostavljenosti";
+"ExposureNotificationSetting_DescriptionTitle" = "Delovanje beleženja izpostavljenosti";
 
 "ExposureNotificationSetting_DescriptionText1" = "Da bi ugotovili, ali ste bili izpostavljeni SARS-CoV-2, morate vklopiti funkcionalnost beleženja izpostavljenosti.";
 
@@ -628,12 +651,25 @@
 
 "Home_Risk_Period_Disabled_Button_Title" = "Posodobljeno vsakih %@\U00A0ur";
 
-/* Home Unknown card */
 "Home_Risk_Unknown_Title" = "Neznano tveganje";
 
-"Home_RiskCard_Unknown_Item_Title" = "Ker beleženje izpostavljenosti ni bilo vklopljeno dovolj dolgo, nismo mogli oceniti vašega tveganja za okužbo.";
+"Home_Risk_Last_Activate_Item_Title" = "Last exposure logging: %@";
+
+"Home_Risk_Last_Activate_Item_Unknown_Title" = "Neznano tveganje";
+
+"Home_Risk_Last_Activate_Item_Low_Title" = "Majhno tveganje";
+
+"Home_Risk_Last_Activate_Item_High_Title" = "Višje tveganje";
 
 "Home_RiskCard_Unknown_Button" = "Posodobitev";
+
+"Home_RiskCard_Update_Button" = "Posodobitev";
+
+/* Home Unknown card */
+"Home_RiskCard_Unknown_Item_Title" = "Ker beleženje izpostavljenosti ni bilo vklopljeno dovolj dolgo, nismo mogli oceniti vašega tveganja za okužbo.";
+
+/* Home Unknown 48 card */
+"Home_RiskCard_Unknown48h_Body" = "Beleženja izpostavljenosti nismo mogli posodobiti več kot 48 ur. Posodobite oceno tveganja.";
 
 /* Home Inactive card */
 "Home_Risk_Inactive_NoCalculation_Possible_Title" = "Beleženje izpostavljenosti je ustavljeno";
@@ -644,14 +680,6 @@
 
 "Home_Risk_Inactive_Outdated_Results_Body" = "Beleženja izpostavljenosti nismo mogli posodobiti več kot 24 ur.";
 
-"Home_Risk_Inactive_Activate_Item_Title" = "Zadnje beleženje izpostavljenosti: %@";
-
-"Home_Risk_Inactive_Activate_Item_Unknown_Title" = "Neznano tveganje";
-
-"Home_Risk_Inactive_Activate_Item_Low_Title" = "Majhno tveganje";
-
-"Home_Risk_Inactive_Activate_Item_High_Title" = "Večje tveganje";
-
 "Home_Risk_Inactive_NoCalculation_Possible_Button" = "Aktiviraj beleženje izpostavljenosti";
 
 "Home_Risk_Inactive_Outdated_Results_Button" = "Aktiviraj beleženje izpostavljenosti";
@@ -659,23 +687,13 @@
 /* Home Low card */
 "Home_Risk_Low_Title" = "Majhno tveganje";
 
-"Home_Risk_Low_SaveDays_Item_Title" = "Shranjeno %1$u od %2$u dni";
-
-"Home_Risk_Low_SaveDays_Item_Title__Permanently_Active" = "Beleženje izpostavljenosti je trajno aktivno";
-
-"Home_Risk_Low_Button" = "Posodobitev";
-
 /* Home High card */
 "Home_Risk_High_Title" = "Večje tveganje";
-
-"Home_Risk_High_Button" = "Posodobitev";
 
 /* Home Status Check */
 "Home_Risk_Status_Check_Title" = "Preverjanje v teku …";
 
 "Home_Risk_Status_Check_Body" = "Prenašajo in preverjajo se trenutni podatki. To lahko traja več minut.";
-
-"Home_Risk_Status_Check_Button" = "Posodobitev";
 
 /* Home Thank you card */
 "Home_Thank_You_Card_Title" = "Hvala!";
@@ -770,6 +788,10 @@
 
 "App_Information_About_Text" = "Kdor uporablja aplikacijo, pomaga pri spremljanju in prekinitvi verige prenosa okužb. V aplikaciji se lokalno na vaši napravi shranijo stiki z drugimi napravami. Aplikacija vas obvesti, če ste bili v stiku z osebami, pri katerih je bila pozneje potrjena okužba s SARS-CoV-2. Vaša identiteta in zasebnost sta vedno zaščiteni.";
 
+"App_Information_About_Link" = " ";
+
+"App_Information_About_LinkText" = " ";
+
 /* App Information - FAQ */
 "App_Information_FAQ_Navigation" = "Več o aplikaciji #OstaniZdrav";
 
@@ -791,7 +813,7 @@
 "App_Information_Contact_Hotline_Description" = "Naš enotni kontaktni center za pomoč uporabnikom je na voljo, da vam ponudi pomoč.";
 
 "App_Information_Contact_Hotline_Terms" = "Jeziki: slovenščina in angleščina \n\nDelovni čas:\nOd ponedeljka do nedelje: 8:00 - 20:00
-\n\nKlic je brezplačen\nKlici iz tujine: +386 1 478 7557";
+\nKlic je brezplačen\nKlici iz tujine: +386 1 478 7557";
 
 /* App Information - Imprint */
 "App_Information_Imprint_Navigation" = "Impresum";
@@ -806,13 +828,17 @@
 
 "App_Information_Imprint_Section2_Text" = "";
 
-"App_Information_Imprint_Section3_Title" = "Stik";
+"App_Information_Imprint_Section3_Title" = "Kontakt";
 
-"App_Information_Imprint_Section3_Text" = "E-naslov: ekc@gov.si\nTel. št.: 080 1787; iz tujine: +386 1 478 7557";
+"App_Information_Imprint_Section3_Text" = "E-naslov: ekc@gov.si\nTel. št.: 080 1787 \niz tujine: +386 1 478 7557";
 
 "App_Information_Imprint_Section4_Title" = "";
 
 "App_Information_Imprint_Section4_Text" = "";
+
+"App_Information_Contact_Form_Title" = " ";
+
+"App_Information_Contact_Form_Link" = " ";
 
 /* App Information - Legal */
 "App_Information_Legal_Navigation" = "Pravna obvestila";
@@ -822,7 +848,7 @@
 
 "App_Information_Legal_ImageDescription" = "Ena oseba drži napravo, na kateri je veliko besedila na zaslonu. Zraven besedila je tehtnica, ki je simbol za pravna obvestila";
 
-"App_Information_Privacy_Title" = "Zasebnost";
+"App_Information_Privacy_Title" = "Obvestilo o varstvu podatkov";
 
 "App_Information_Privacy_Description" = "Ostali boste anonimni.\nVaši podatki so povsem šifrirani in se prenašajo pod psevdonimom.";
 
@@ -838,11 +864,11 @@
 
 "InviteFriends_Subtitle" = "";
 
-"InviteFriends_Title" = "Obvarujmo sebe in druge pred COVID-19.";
+"InviteFriends_Title" = "Obvarujmo sebe in druge pred COVID-19";
 
 "InviteFriends_Description" = "Več kot je uporabnikov aplikacije, hitreje bomo prekinili verigo prenosa okužb. Prosimo, povabite svoje sorodnike in prijatelje, naj prenesejo aplikacijo.";
 
-"InviteFriends_Button" = "Pošljite povezavo za prenos aplikacije";
+"InviteFriends_Button" = "Pošlji povezavo za prenos aplikacije";
 
 "InviteFriends_ShareTitle" = "Skupaj proti COVID-19. Jaz sodelujem kaj pa vi?";
 
@@ -898,7 +924,7 @@
 
 "RiskLegend_Legend1_Title" = "Beleženje izpostavljenosti";
 
-"RiskLegend_Legend1_Text" = "Beleženje izpostavljenosti je ena izmed treh osrednjih funkcij aplikacije. Ko jo boste aktivirali, boste začeli beležiti stike z napravami drugih oseb.";
+"RiskLegend_Legend1_Text" = "Beleženje izpostavljenosti je ena izmed treh osrednjih funkcionalnosti aplikacije. Ko jo boste aktivirali, boste začeli beležiti stike z napravami drugih oseb.";
 
 "RiskLegend_Legend2_Title" = "Tveganje za okužbo";
 
@@ -965,7 +991,7 @@
 "ENATanInput_CharacterIndex" = "Znak %1$u od %2$u";
 
 /* Active Tracing Interval Formatting:\n The following two entries are used together. If tracing was not active (almost) 14 days\n during the last 14 days then `Active_Tracing_Interval_Partially_Active` is used – otherwise\n `Active_Tracing_Interval_Partially_Active` will be used. */
-"Active_Tracing_Interval_Partially_Active" = "Beleženje izpostavljenosti je aktivirano %1$u od %2$u dni.";
+"Active_Tracing_Interval_Partially_Active" = "Aktivirano %1$u od 14 dni";
 
 "Active_Tracing_Interval_Permanently_Active" = "Beleženje izpostavljenosti je aktivirano";
 
